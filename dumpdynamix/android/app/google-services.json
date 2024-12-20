@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "380916481933",
+    "project_id": "dumperdynamics",
+    "storage_bucket": "dumperdynamics.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380916481933:android:60f3258c1bbf7a455707c4",
+        "android_client_info": {
+          "package_name": "com.dumpdynamix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAvmNBk5kGfxrxVAGjiZ0d1IlSYwzevyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
