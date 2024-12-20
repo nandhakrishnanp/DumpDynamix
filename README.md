@@ -17,6 +17,7 @@ DumpDynamix is a cross-platform mobile application built with React Native, comp
 - Cost per Working Hour Estimation
 - Expense Manager
 
+![Mobile App Screenshot](./Images/1.png)
 ### Truck Operator Features:
 - Multilingual Voice-based Alert System for essential updates.
 - Track all the Parameters Collected
