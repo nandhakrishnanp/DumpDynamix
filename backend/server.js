@@ -7,11 +7,11 @@ dotenv.config();
 console.log("Hello World");
 
 
-const admin = require("firebase-admin");
-const serviceAccount = require("./firebase/ServiceAccountKey.json");
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-});
+// const admin = require("firebase-admin");
+// // const serviceAccount = require("./firebase/ServiceAccountKey.json");
+// // admin.initializeApp({
+// //   credential: admin.credential.cert(serviceAccount),
+// // });
 
 
 
