@@ -4,6 +4,7 @@ const port = 3000;
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 dotenv.config();
+console.log("Hello World");
 
 
 const admin = require("firebase-admin");
@@ -11,6 +12,8 @@ const serviceAccount = require("./firebase/ServiceAccountKey.json");
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
+
+
 
 const VechicleSchmea = require("./model/VechicleSchmea");
 const cors = require("cors");
@@ -311,6 +314,6 @@ app.get("/", (req, res) => {
 });
 app.use("/truck_Details", require("./routes/TruckRoutes"));
 app.use("/api", require("./routes/userRoutes"));
-app.listen(port, () => {
+app.listen(process.env.X_ZOHO_CATALYST_LISTEN_PORT || 9000, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });

@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "8241000000028047",
+      "name": "dumpdynamix2",
+      "domain": {
+        "id": "50024249402",
+        "name": "dumpdynamix2-60030624738.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60030624738",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
